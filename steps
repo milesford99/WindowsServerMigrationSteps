@@ -1,0 +1,13 @@
+#migrate print server
+https://www.papercut.com/kb/Main/HowToMigrateWindowsPrintQueues
+
+#migrate dhcp 
+https://www.papercut.com/kb/Main/HowToMigrateWindowsPrintQueues
+
+#migrate file shares
+1.Download and install Windows Admin Center
+2.Make sure old servers are up to WMF 5 Powershell 5
+3. Add them into Windows Admin Center
+4.They dont all have to be in same domain, just same LAN
+5.Connect to 2019 server through admin center and choose storage migration service
+6.Do inventory of servers and start migration
