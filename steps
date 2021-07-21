@@ -7,6 +7,9 @@ http://www.ngcci.com/move-dhcp-one-server-another-dhcp-server/
 #if not using Active Directory, migrate DNS
 https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/move-zone-files-dns-server
 
+#migrate AD, FSMO roles, etc
+https://www.blog.anupchhetri.com/?p=2496
+
 #migrate file shares
 1.Download and install Windows Admin Center
 2.Make sure old servers are up to WMF 5 Powershell 5
@@ -14,3 +17,4 @@ https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/move-zon
 4.They dont all have to be in same domain, just same LAN
 5.Connect to 2019 server through admin center and choose storage migration service
 6.Do inventory of servers and start migration
+
